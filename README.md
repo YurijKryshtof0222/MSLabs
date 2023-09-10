@@ -4,5 +4,5 @@
 <h2>Лабораторна робота №1</h2>
 <h3>Завдання</h3>
 
-![image](https://github.com/YurijKryshtof0222/MSLabs/assets/105464154/350a7747-ba83-45b9-a4a5-359d001d82be)
-![image](https://github.com/YurijKryshtof0222/MSLabs/assets/105464154/504e4d57-a7a9-439a-8b50-10cf19dc1e4d)
+![image](https://github.com/YurijKryshtof0222/MSLabs/assets/105464154/c587591e-a9bd-4d4e-aa46-b3baa7244b8b)
+![image](https://github.com/YurijKryshtof0222/MSLabs/assets/105464154/0dfeab57-2bf9-4898-a128-f32fb5da416b)
