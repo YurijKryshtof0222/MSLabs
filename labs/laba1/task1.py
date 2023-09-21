@@ -30,14 +30,16 @@ def realization_of_random(probability, m):
             realizations_seq.append(0)
             not_happened += 1
 
-    return realizations_seq, happened / 100
+        sum = happened + not_happened
+
+    return realizations_seq, happened / sum
 
 
 if __name__ == '__main__':
     print('Завдання №1', 'Варіант - 11')
     print()
-    m = input('Введіть значення M - кількість реалізацій :')
-    probability = input('Введіть значення P - ймовірністі [0, 1]')
+    m = int(input('Введіть значення M - кількість реалізацій :'))
+    probability = float(input('Введіть значення P - ймовірністі [0, 1]'))
 
     task1 = realization_of_random(probability=probability, m=m)
     seq1 = task1[0]

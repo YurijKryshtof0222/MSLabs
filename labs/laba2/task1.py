@@ -4,16 +4,17 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
     print('Лабораторна робота №2', 'Варіант - 11')
 
-    M = 100
+    M = 500
 
-    lower_bound = 1
-    upper_bound = 2
+    a = 1
+    b = 2
 
     realizations = []
 
     for _ in range(M):
-        realization = random.uniform(lower_bound, upper_bound)
-        realizations.append(realization)
+        r = random.uniform(a, b)
+        f = (b - a) * r + a
+        realizations.append(f)
 
     # Виводимо список реалізацій
     print(realizations)

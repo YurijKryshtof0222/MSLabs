@@ -29,7 +29,9 @@ def discrete_random_sequence(values, probability, m):
         dict_of_realizations[realization] += 1
         realizations.append(realization)
 
-    return realizations, {k: v / 100 for k, v in dict_of_realizations.items()}
+        sum_of_all = sum(dict_of_realizations.values())
+
+    return realizations, {k: v / sum_of_all for k, v in dict_of_realizations.items()}
 
 
 if __name__ == '__main__':
