@@ -29,7 +29,7 @@ def generate_c_matrix(k):
     return c
 
 
-N = 10
+N = 50
 k = [[300, 120],
      [120, 300]]
 mean = [0, 0]
@@ -66,3 +66,4 @@ for i in range(N):
 # hits = sum(1 for d in distances if d <= r0)
 
 print(f"Кількість попадань: {hits}")
+print(f"Ймовірність попадань: {hits / N}")
